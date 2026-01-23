@@ -25,7 +25,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -66,3 +65,32 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.page{
+  padding:40px;
+}
+.navbar{
+  width:1200px;
+  display:flex;
+  justify-content:space-between;
+  padding: 15px 30px;
+  color:black;
+}
+.root{
+  margin:20px;
+  max-width: 1200px;
+}
+.coffee-list{
+  display:flex;
+}
+.navbar ul{
+  list-style: none;
+  display:flex;
+  gap:20px;
+  padding:0;
+  margin:0;
+}
+.navbar li {
+  color:black;
+}
+
+
